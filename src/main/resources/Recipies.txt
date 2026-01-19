@@ -1,0 +1,42 @@
+Pizza macka,bröd,tomatpure,lufttorkad skinka,riven mozzarella,svarta oliver,rödlök,paprika
+Stuvade makaroner,makaroner,mjölk,matgrädde,köttbullar,senap,muskot
+Korvstroganoff,falukorv,ris,tomatpure,matlagningsgrädde,gul lök,dijon,köttbuljong,soja
+Kycklingkebab gryta,Kycklingkebab,ris,vitlök,gul lök,Creme fraiche paprika chili,matlagningsgrädde
+Köttfärssoppa,nötfärs,paprika,potatis,gul lök,tomatpure,krossade tomater,köttbuljong,chiliflakes,rosmarin,vispgrädde,vitlök,timjan,oregano,vispgrädde
+Pasta skinksås,pasta,strimlad rökt skinka,prästost,timjan,gul lök,hönsbuljong,majsstärkelse,matlagningsgrädde
+Salsiccia soppa,salsicciafärs,gul lök,vitkål,köttbuljong,tomatpure,basilika,krossade tomater,bröd
+Salsiccia pasta,salsicciafärs,pasta,schalottenlök,vitlök,krossade tomater,vitt vin,basilika,parmesan
+Teriyaki färs m. Vitkål,teriyaki,vitkål,ris,nötfärs,vitlök,sesamolja,mirin,wokgrönsaker,soja,vitpeppar,msg
+Varma smörgåsar med köttfärs,ciabatta,ciabatta,nötfärs,haricovert,svarta oliver,rödlök,chili,vitlök
+Curry gryta m. Ris och kyckling,ris,kycklinginnerfile,lime,gul lök,champinjoner,tomat,tomat,ingefära,röd currypasta,kokosmjölk,neutral olja,vitlök,socker
+Kycklingklubbor m äpple potatis bacon,kycklingklubbor,bacon,1kg äpplen,potatis,rosmarin,socker,olivolja
+Ramen med kycklingfärs,olivolja,kycklingfärs,soja,muscovadosocker,sesamolja,smör,vitlök,ingefära,salladslök,kycklingbuljong,kokosmjölk,misopasta,risvinäger,äggnudlar,ägg,burkmajs,morot,sesamfrön,chiliolja
+Kyckling med pärlcouscous,pärlcouscous,kycklinglårfile,citron,citron,citron,gul lök,smör,neutral olja,kycklingbuljong,vitlök,dill,chilipulver,olivolja,kapris
+Pinsa,pinsa,pinsa
+Köttbullar och potatis mos & gräddsås,blandfärs,ströbröd,mjölk,ägg,gul lök,kalvfond,socker,smör,neutral olja,vispgrädde,köttbuljong,soja,lingonsylt,mjölig potatis,gurka,ättiksprit,dill
+Köttfärs med sötpotatis & keso & avokado,keso,sötpotatis,sötpotatis,sötpotatis,sötpotatis,olivolja,paprikapulver,nötfärs,tacokrydda,smör,neutral olja,gräddfil,avokado,honung,chiliflakes,lime
+Marry me chicken,neutral olja,gul lök,vitlök,soltorkadetomater,paprikapulver,cayennepeppar,kycklinglårfile,basilika,oregano,rosmarin,timjan,pasta,vispgrädde,spenat,tomatpure
+Carbonara,spagetti,bacon,vispgrädde,ägg,parmesan
+Pasta bolognese,spagetti,selleri,morot,gul lök,vitlök,rött vin,tomatpure,oregano,rosmarin,timjan,chiliflakes,blandfärs,krossade tomater,parmesan,köttbuljong
+Grekiska biffar,morot,morot,potatis,palsternacka,olivolja,rosmarin,timjan,nötfärs,tomatpure,oregano,ströbröd,vispgrädde,mjölk,vitlök,fetaost,turkisk youghurt,honung,ruccola
+Kyckling i ugn,kycklinglårfile,potatis,timjan,paprikapulver,olivolja,turkisk youghurt,gurka,morot,morot,rödlök,vitlök,ruccola
+Pasta pesto,pasta,pesto,vispgrädde,mjölk,gul lök,vitlök,kycklingbuljong,kycklinglårfile,ruccola,vitt vin
+Rosmarinkryddad köttfärslimpa,rosmarin,blandfärs,ströbröd,mjölk,vitlök,äpple,äpple,rödlök,rödlök,timjan,svartpeppar,grädde,smör,vetemjöl,vitt vinsvinäger,köttbuljong,socker,potatis
+Vinterwok med sobanudlar,soja,rödvinsvinäger,neutral olja,honung,sobanudlar,kålrot,vitkål,chili,vitlök,jordnötter,babyspenat
+Svampyakiniku,majsstärkelse,soja,socker,vitvinsvinäger,broccoli,neutral olja,ingefära,champinjoner,sesamfrön,chiliflakes,vitlök,ris,ägg,salladslök
+Thai red curry,kycklinginnerfile,lime,gul lök,champinjoner,tomat,tomat,ingefära,röd currypasta,kokosmjölk,neutral olja,vitlök,socker,ris
+Mexikansk fläskkarre,potatis,paprikapulver,bakplåtspapper,olivolja,lime,cocktailtomater,rödlök,chiliflakes,vitlök,socker,olivolja,svartpeppar,majs,spiskummin,matyoghurt,fläskkarre
+Risotto,kycklingbuljong,olivolja,schalottenlök,schalottenlök,schalottenlök,vitlök,svamp,avorioris,vermout,smör,parmesan,kycklingbröst,vispgrädde,rosepeppar
+Pappardelle med butternutpumpa,butternutpumpa,bakplåtspapper,olivolja,pumpakärnor,chili,fetaost,vitvinsvinäger,svartpeppar,vitlök,smör,pappardelle
+Laxpumpa soppa m fänkål,bake-off bröd,cannellinibönor,fänkål,butternutpumpa,purjolök,laxfile,cannellinibönor,fänkålsfrön,olivolja,chiliflakes,vitlök,tomatpure,grönsaksbuljong,citron,dill,persilja
+Ramen,majs,bakplåtspapper,neutral olja,chili,vitlök,salladslök,pak choy,kycklinglårfile,vit misopasta,soja,kycklingbuljong,ägg,ramennudlar,sesamfrön
+Kyckling soppa m quinoa,hel kyckling,vitlök,vitpepparkorn,lagerblad,gul lök,quinoa,purjolök,neutral olja,citron,citron,dill,persilja,sockerärtor,turkisk youghurt
+Dan Dan nudlar,fläskfärs,neutral olja,five spice,soja,salladslök,pak choy,chiliolja,jordnötter,socker,tahini,jordnötssmör,chinkiangvinäger,vitlök
+Indisklinsgryta,gul lök,palsternacka,curry,korriander,kanel,rödalinser,krossade tomater,kokosmjölk,vitlök,neutral olja,tomatpure,grönsaksbuljong,sambal oelek,päron,turkisk youghurt,mynta,nanbröd
+Pho ga,ingefära,salladslök,stjärnanis,kycklinglårfile,fisksås,vitlök,neutral olja,kycklingbuljong,pak choy,risnudlar,chiliflakes
+Vietnamesisk nudelsallad m shiitake,risnudlar,sesamolja,shiitake,pak choy,mango,mynta,jordnötter,vitlök,neutral olja,lime,lime,soja,sesamfrön,chiliflakes,socker,tofu,tofu,tofu
+Gyoza/wontons,gyoza/wonton wrappers,fläskfärs,socker,vitpeppar,kycklingbuljong,fisksås,soja,sesamolja,majsstärkelse,vitlök,salladslök,ingefära,chinkiangvinäger,chiliolja
+Hoisin fläsk,muscovadosocker,soja,hoisinsås,risvinäger,vitlök,ingefära,majsstärkelse,fläskkarre,majonäs,sriracha,ris
+Teriyaki kyckling m vitkål & gurksallad,kycklinglårfile,ris,vitkål,gurka,salladslök,ingefära,vitlök,misopasta,citron,soja,sesamolja,teriyakisås,sesamfrön
+Thai kyckling köttbullar,kycklingfärs,zucchini,röd chili,ingefära,vitlök,salladslök,ägg,soja,lime,röd currypasta,kokosmjölk,röd paprika,kycklingbuljong,socker,ris
+Chorizo gryta,chorizo,purjolök,röd paprika,potatis,morot,gul lök,tomatpure,vispgrädde,persilja,köttbuljong,cayennepeppar,paprikapulver,oregano
