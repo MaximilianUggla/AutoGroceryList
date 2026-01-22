@@ -16,7 +16,7 @@ public class Reader {
         List<String[]> unParsedRecipes = new ArrayList<>();
         List<Recipie> allRecipes = new ArrayList<>();
 
-        File f = new File("demo/src/main/resources/Recipies.txt");
+        File f = new File("src/main/resources/Recipies.txt");
         Scanner scan = new Scanner(f);
         while (scan.hasNextLine()) {
             String in = scan.nextLine();
@@ -41,7 +41,7 @@ public class Reader {
 
     public static Set<String> getPriorityFilters() throws FileNotFoundException {
         Set<String> priorities = new HashSet<>();
-        File f = new File("demo/src/main/resources/Priority.txt");
+        File f = new File("src/main/resources/Priority.txt");
         Scanner scan = new Scanner(f);
         while (scan.hasNextLine()) {
             priorities.add(scan.nextLine());
@@ -52,7 +52,7 @@ public class Reader {
 
     public static Set<String> getPantryItems() {
         Set<String> pantryItems = new HashSet<>();
-        File f = new File("demo/src/main/resources/PantryItems.txt");
+        File f = new File("src/main/resources/PantryItems.txt");
         try {
             Scanner scan = new Scanner(f);
             while (scan.hasNextLine()) {
