@@ -10,20 +10,19 @@ import java.util.Scanner;
 import java.util.Set;
 
 public class Reader {
-    private static final Scanner terminalScanner = new Scanner(System.in, "Cp850");
 
-    public static List<Recipie> getAllRecipies() throws FileNotFoundException {
+    public static List<Recipie> getAllRecipes() throws FileNotFoundException {
         List<String[]> unParsedRecipes = new ArrayList<>();
         List<Recipie> allRecipes = new ArrayList<>();
 
         File f = new File("src/main/resources/Recipies.txt");
-        Scanner scan = new Scanner(f);
-        while (scan.hasNextLine()) {
-            String in = scan.nextLine();
+        Scanner scanner = new Scanner(f);
+        while (scanner.hasNextLine()) {
+            String in = scanner.nextLine();
             unParsedRecipes.add(in.split(","));
         }
         
-        scan.close();
+        scanner.close();
 
         for (String[] recipe : unParsedRecipes) {
             allRecipes.add(new Recipie(recipe));
@@ -31,22 +30,18 @@ public class Reader {
         return allRecipes;
     }
 
-    public static String[] getFilters() {
-        return terminalScanner.nextLine().split(", ");
-    }
+    public static String[] getFilters() {return new Scanner(System.in).nextLine().split(", ");}
 
-    public static String getInput() {
-        return terminalScanner.nextLine().trim();
-    }
+    public static String getInput() {return new Scanner(System.in).nextLine().trim();}
 
     public static Set<String> getPriorityFilters() throws FileNotFoundException {
         Set<String> priorities = new HashSet<>();
         File f = new File("src/main/resources/Priority.txt");
-        Scanner scan = new Scanner(f);
-        while (scan.hasNextLine()) {
-            priorities.add(scan.nextLine());
+        Scanner scanner = new Scanner(f);
+        while (scanner.hasNextLine()) {
+            priorities.add(scanner.nextLine());
         }
-        scan.close();
+        scanner.close();
         return priorities;
     }
 
@@ -54,16 +49,12 @@ public class Reader {
         Set<String> pantryItems = new HashSet<>();
         File f = new File("src/main/resources/PantryItems.txt");
         try {
-            Scanner scan = new Scanner(f);
-            while (scan.hasNextLine()) {
-                pantryItems.add(scan.nextLine());
+            Scanner scanner = new Scanner(f);
+            while (scanner.hasNextLine()) {
+                pantryItems.add(scanner.nextLine());
             }
-            scan.close();
+            scanner.close();
         } catch (FileNotFoundException e) {e.printStackTrace();}
         return pantryItems;
-    }
-
-    public static void close() {
-        terminalScanner.close();
     }
 }
