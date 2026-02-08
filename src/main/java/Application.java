@@ -9,7 +9,7 @@ import java.util.Set;
 public class Application {
 
     public static void main(String[] args) throws IOException, InterruptedException {
-        List<Recipie> allRecipes = Reader.getAllRecipies();
+        List<Recipie> allRecipes = Reader.getAllRecipes();
         Set<String> priorities = Reader.getPriorityFilters();
 
         int length = retrieveLength();
@@ -38,7 +38,6 @@ public class Application {
                 sendList(sl);
             }if (option.equals("4")) {loop = false;}            
         }
-        Reader.close();
     }
 
     private static void sendList(ShoppingList sl) throws IOException, InterruptedException {
