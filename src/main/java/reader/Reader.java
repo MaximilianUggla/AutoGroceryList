@@ -1,6 +1,6 @@
 package reader;
 
-import model.Recipie;
+import model.Recipe;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
@@ -11,9 +11,9 @@ import java.util.Set;
 
 public class Reader {
 
-    public static List<Recipie> getAllRecipes() throws FileNotFoundException {
+    public static List<Recipe> getAllRecipes() throws FileNotFoundException {
         List<String[]> unParsedRecipes = new ArrayList<>();
-        List<Recipie> allRecipes = new ArrayList<>();
+        List<Recipe> allRecipes = new ArrayList<>();
 
         File f = new File("src/main/resources/Recipies.txt");
         Scanner scanner = new Scanner(f);
@@ -25,7 +25,7 @@ public class Reader {
         scanner.close();
 
         for (String[] recipe : unParsedRecipes) {
-            allRecipes.add(new Recipie(recipe));
+            allRecipes.add(new Recipe(recipe));
         }
         return allRecipes;
     }
