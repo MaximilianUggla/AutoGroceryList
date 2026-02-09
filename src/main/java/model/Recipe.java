@@ -5,12 +5,12 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
-public class Recipie {
+public class Recipe {
     public final String name;
-    private List<String> ingredients = new ArrayList<>();
-    private Set<String> setOfIngredients;
+    private final List<String> ingredients = new ArrayList<>();
+    private final Set<String> setOfIngredients;
 
-    public Recipie(String[] info) {
+    public Recipe(String[] info) {
         name = info[0];
         
         for (int i = 1; i < info.length; i++) {
