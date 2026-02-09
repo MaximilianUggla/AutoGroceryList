@@ -1,5 +1,5 @@
 import model.Mealplan;
-import model.Recipie;
+import model.Recipe;
 import model.ShoppingList;
 import reader.Reader;
 import java.io.IOException;
@@ -9,7 +9,7 @@ import java.util.Set;
 public class Application {
 
     public static void main(String[] args) throws IOException, InterruptedException {
-        List<Recipie> allRecipes = Reader.getAllRecipes();
+        List<Recipe> allRecipes = Reader.getAllRecipes();
         Set<String> priorities = Reader.getPriorityFilters();
 
         int length = retrieveLength();
