@@ -6,20 +6,20 @@ import java.util.Random;
 import java.util.Set;
 
 public class Mealplan {
-    private List<Recipie> mealplan = new ArrayList<>();
+    private List<Recipe> mealplan = new ArrayList<>();
     private Random rand = new Random();
     private int nbrOfMeals;
-    private List<Recipie> allRecipies;
+    private List<Recipe> allRecipies;
     private List<String> priorities;
 
-    public Mealplan(int nbrOfMeals, String[] filters, List<Recipie> allRecipes, Set<String> allPriorities) {
+    public Mealplan(int nbrOfMeals, String[] filters, List<Recipe> allRecipes, Set<String> allPriorities) {
         this.nbrOfMeals = nbrOfMeals;
         this.allRecipies = allRecipes;
         pickReleventPriorities(allPriorities, filters);
         generateMealplan();
     }
 
-    public List<Recipie> getMeals() {
+    public List<Recipe> getMeals() {
         mealplan.sort((r1, r2) -> r1.name.compareTo(r2.name));
         return new ArrayList<>(mealplan);
     }
@@ -48,8 +48,8 @@ public class Mealplan {
 
     private void addBasedOnPriority() {
         for (String p : priorities) {
-            List<Recipie> options = new ArrayList<>();
-            for (Recipie r : allRecipies) {
+            List<Recipe> options = new ArrayList<>();
+            for (Recipe r : allRecipies) {
                 if (r.contains(p)) {
                     options.add(r);
                 }
@@ -61,7 +61,7 @@ public class Mealplan {
         }
     }
 
-    private Recipie randomMeal() {
+    private Recipe randomMeal() {
         int randomIndex = rand.nextInt(0, allRecipies.size());
         return allRecipies.get(randomIndex);
     }
