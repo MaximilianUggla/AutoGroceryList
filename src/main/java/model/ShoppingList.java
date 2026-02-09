@@ -14,7 +14,7 @@ public class ShoppingList {
     private Map<String, Integer> usedPantryItems = new HashMap<>();
     
     public ShoppingList(Mealplan mp) {
-        for (Recipie r : mp.getMeals()) {
+        for (Recipe r : mp.getMeals()) {
             for (String str : r.getIngredients()) {
                 if (!pantryItems.contains(str)) {
                     groceries.put(str, groceries.getOrDefault(str, 0) + 1);
