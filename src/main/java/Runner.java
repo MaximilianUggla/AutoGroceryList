@@ -7,33 +7,40 @@ import java.util.concurrent.TimeoutException;
 import SearchTree.TrieTree;
 import model.GroceryItem;
 import model.Recipe;
+import reader.Reader;
 import reader.SetupReader;
 import java.util.Set;
 
 public class Runner {
+    private static final TrieTree searchTree = new TrieTree();
+    private static final List<Recipe> allRecipes = new ArrayList<>();
+    private static final Thread t1 = new Thread(() -> {
+        Scanner scanner = null;
+        try {scanner = new Scanner(new File("src/main/resources/Recipies.txt"));} catch (FileNotFoundException e) {throw new RuntimeException(e);}
+
+        while (scanner.hasNextLine()) {
+            String[] recipe = scanner.nextLine().split(",");
+            allRecipes.add(new Recipe(recipe));
+        }
+        scanner.close();
+    });
+    private static final Thread t2 = new Thread(() -> {
+
+    });
+
+
     public static void main(String[] args) throws FileNotFoundException, InterruptedException, TimeoutException {
-        final List<Recipe> allRecipes = new ArrayList<>();
-
-        Thread t1 = new Thread(() -> {
-            Scanner scanner = null;
-            try {scanner = new Scanner(new File("src/main/resources/Recipies.txt"));} catch (FileNotFoundException e) {throw new RuntimeException(e);}
-
-            while (scanner.hasNextLine()) {
-                String[] recipe = scanner.nextLine().split(",");
-                allRecipes.add(new Recipe(recipe));
-            }
-            scanner.close();
-        });
         t1.start();
 
         Set<GroceryItem>[] catalogueMatrix = SetupReader.readInCatalogue();
-        TrieTree searchTree = new TrieTree();
 
         for (Set<GroceryItem> category : catalogueMatrix) {
             for (GroceryItem item : category) {
                 searchTree.insert(item);
             }
         }
+
+        Set<GroceryItem> priorities = catalogueMatrix[0];
 
         t1.join();
 
