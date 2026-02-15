@@ -1,6 +1,8 @@
 package reader;
 
 import model.GroceryItem;
+import model.Recipe;
+
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
@@ -14,21 +16,20 @@ import java.util.concurrent.TimeUnit;
 import java.util.concurrent.TimeoutException;
 
 public class SetupReader {
+    private static final String startPath = "src/main/resources/";
 
-    public static Set<GroceryItem>[] setup() throws FileNotFoundException, InterruptedException, TimeoutException {
-        String startPath = "src/main/resources/";
-
+    public static Set<GroceryItem>[] readInCatalogue() throws FileNotFoundException, InterruptedException, TimeoutException {
         List<String> fileNames = new ArrayList<>();
         Scanner scanner = new Scanner(new File(startPath + "PATHS.txt"));
         while (scanner.hasNextLine()) {
-            String in = scanner.nextLine();
-            fileNames.add(in);
+            String name = scanner.nextLine();
+            fileNames.add(name);
         }
         scanner.close();
 
         ExecutorService executorService = Executors.newFixedThreadPool(4);
 
-        Set<GroceryItem>[] supplyMatrix = (Set<GroceryItem>[]) new HashSet[fileNames.size()];
+        Set<GroceryItem>[] catalogueMatrix = (Set<GroceryItem>[]) new HashSet[fileNames.size()];
 
         for (String fileName : fileNames) {
             executorService.submit(() -> {
@@ -40,13 +41,13 @@ public class SetupReader {
                     items.add(new GroceryItem(scan.nextLine(), fileName));
                 }
                 scan.close();
-                supplyMatrix[fileNames.indexOf(fileName)] = items;
+                catalogueMatrix[fileNames.indexOf(fileName)] = items;
             });
         }
 
         executorService.shutdown();
-        if (executorService.awaitTermination(1, TimeUnit.HOURS)) {
-            return supplyMatrix;
+        if (executorService.awaitTermination(5, TimeUnit.MINUTES)) {
+            return catalogueMatrix;
         }  else {
             throw new TimeoutException("Tasks timed out");
         }
