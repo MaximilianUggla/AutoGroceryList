@@ -12,7 +12,7 @@ Curry gryta m. Ris och kyckling,ris,kycklinginnerfile,lime,gul lök,champinjoner
 Kycklingklubbor m äpple potatis bacon,kycklingklubbor,bacon,1kg äpplen,potatis,rosmarin,socker,olivolja
 Ramen med kycklingfärs,olivolja,kycklingfärs,soja,muscovadosocker,sesamolja,smör,vitlök,ingefära,salladslök,kycklingbuljong,kokosmjölk,misopasta,risvinäger,äggnudlar,ägg,burkmajs,morot,sesamfrön,chiliolja
 Kyckling med pärlcouscous,pärlcouscous,kycklinglårfile,citron,citron,citron,gul lök,smör,neutral olja,kycklingbuljong,vitlök,dill,chilipulver,olivolja,kapris
-Pinsa,pinsa,pinsa
+Pinsa,pinsa,pinsa,pinsapålägg
 Köttbullar och potatis mos & gräddsås,blandfärs,ströbröd,mjölk,ägg,gul lök,kalvfond,socker,smör,neutral olja,vispgrädde,köttbuljong,soja,lingonsylt,mjölig potatis,gurka,ättiksprit,dill
 Köttfärs med sötpotatis & keso & avokado,keso,sötpotatis,sötpotatis,sötpotatis,sötpotatis,olivolja,paprikapulver,nötfärs,tacokrydda,smör,neutral olja,gräddfil,avokado,honung,chiliflakes,lime
 Marry me chicken,neutral olja,gul lök,vitlök,soltorkadetomater,paprikapulver,cayennepeppar,kycklinglårfile,basilika,oregano,rosmarin,timjan,pasta,vispgrädde,spenat,tomatpure
