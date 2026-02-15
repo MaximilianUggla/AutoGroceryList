@@ -6,7 +6,9 @@ import java.util.Scanner;
 import java.util.concurrent.TimeoutException;
 import SearchTree.TrieTree;
 import model.GroceryItem;
+import model.Mealplan;
 import model.Recipe;
+import model.ShoppingList;
 import reader.Reader;
 import reader.SetupReader;
 import java.util.Set;
@@ -41,6 +43,12 @@ public class Runner {
         }
 
         Set<GroceryItem> priorities = catalogueMatrix[0];
+
+        /*int length = getLength();
+        String[] filter = getFilters();
+        Mealplan mp = new Mealplan(length, filters, allRecipes, priorities);
+        ShoppingList sl = new ShoppingList(mp);*/
+
 
         t1.join();
 
