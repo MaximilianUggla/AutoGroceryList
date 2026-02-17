@@ -1,7 +1,7 @@
 Pizza macka,bröd,tomatpure,lufttorkad skinka,riven mozzarella,svarta oliver,rödlök,paprika
 Stuvade makaroner,makaroner,mjölk,matgrädde,köttbullar,senap,muskot
 Korvstroganoff,falukorv,ris,tomatpure,matlagningsgrädde,gul lök,dijon,köttbuljong,soja
-Kycklingkebab gryta,Kycklingkebab,ris,vitlök,gul lök,Creme fraiche paprika chili,matlagningsgrädde
+Kycklingkebab gryta,kycklingkebab,ris,vitlök,gul lök,creme fraiche paprika chili,matlagningsgrädde
 Köttfärssoppa,nötfärs,paprika,potatis,gul lök,tomatpure,krossade tomater,köttbuljong,chiliflakes,rosmarin,vispgrädde,vitlök,timjan,oregano,vispgrädde
 Pasta skinksås,pasta,strimlad rökt skinka,prästost,timjan,gul lök,hönsbuljong,majsstärkelse,matlagningsgrädde
 Salsiccia soppa,salsicciafärs,gul lök,vitkål,köttbuljong,tomatpure,basilika,krossade tomater,bröd
